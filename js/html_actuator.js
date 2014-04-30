@@ -172,7 +172,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.textContent = "Tweet";
 
-  var text = "" + this.score + " I just go points in 2040 Yeet! http://weethreehunna.github.io/2040-Yeet/ #2040Yeet"
+  var text = "" + this.score + " points in Udacity2048! http://ow.ly/vpoFS Code your own game in their new mini course http://ow.ly/vpaLY #2048game"
   tweet.setAttribute("data-text", text);
 
   return tweet;

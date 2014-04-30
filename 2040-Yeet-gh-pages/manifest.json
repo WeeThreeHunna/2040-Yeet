@@ -1,0 +1,21 @@
+{
+  "name": "2040 Yeet",
+  "manifest_version": 2,
+  "description": "A parody of the popular 2048 that includes viral twitter trends instead of numbers. ",
+  "version": "2",
+  "app": {
+    "urls": [
+      "*://weethreehunna.github.io/2040-Yeet/"
+    ],
+    "launch": {
+      "web_url": "http://weethreehunna.github.io/2040-Yeet/"
+    }
+  },
+  "icons": {
+    "128": "128.jpg"
+  },
+  "permissions": [
+    "unlimitedStorage",
+    "notifications"
+  ]
+}
