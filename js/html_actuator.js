@@ -146,7 +146,7 @@ HTMLActuator.prototype.updateBestScore = function (bestScore) {
 
 HTMLActuator.prototype.message = function (won) {
   var type    = won ? "game-won" : "game-over";
-  var message = won ? "You win!" : "Game over!";
+  var message = won ? "Nigga We Made It!!" : "Game over!";
 
   if (typeof ga !== "undefined") {
     ga("send", "event", "game", "end", type, this.score);
@@ -172,7 +172,7 @@ HTMLActuator.prototype.scoreTweetButton = function () {
   tweet.setAttribute("href", "https://twitter.com/share");
   tweet.textContent = "Tweet";
 
-  var text = "" + this.score + " points in @ImClutch's #2040Yeet Game! Try it now!"
+  var text = "" + this.score + " points in @ImClutch's #2040Yeet Game! Try it now! Its the gheto 2048"
   tweet.setAttribute("data-text", text);
 
   return tweet;
